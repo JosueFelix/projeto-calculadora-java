@@ -9,7 +9,7 @@ public class Calculadora {
     }
 
     public int multiplicar(int a, int b) {
-        return 0;
+        return a * b;
     }
 
     public double dividir(double a, double b) {
