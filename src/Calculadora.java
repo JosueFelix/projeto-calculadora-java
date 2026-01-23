@@ -14,8 +14,9 @@ public class Calculadora {
 
     public double dividir(double a, double b) {
         if (b == 0) {
+            System.out.println("Erro: Divisão por zero.");
             return Double.NaN;
         }
-        return 0;
+        return a / b; //
     }
 }
